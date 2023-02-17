@@ -1,9 +1,10 @@
 import React from 'react';
+import './Loader.css';
 
 export enum LoaderSize {
   s = 's',
   m = 'm',
-  l = 'l'
+  l = 'l',
 }
 
 export type LoaderProps = {
@@ -12,4 +13,14 @@ export type LoaderProps = {
   className?: string;
 };
 
-export const Loader: React.FC<LoaderProps> = () => null;
+export const Loader: React.FC<LoaderProps> = ({
+  size = LoaderSize.m,
+  loading = true,
+  className = "",
+}) => {
+  if (loading) {
+    return <div className={'loader' + ' ' + className + ' ' + size}></div>;
+  } else {
+    return null;
+  }
+};
