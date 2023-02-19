@@ -13,12 +13,6 @@ export type ButtonProps = React.PropsWithChildren<{
 
 export const Button: React.FC<ButtonProps> = ({className="", ...props}) => {
 
-  // let buttonClass = classNames({
-  //   button: true,
-  //   button_disabled: props.loading ||props.disabled,
-  //   // [`${additionalClass}`]: props.className !== undefined, 
-  // });
-
   let buttonClass = "button";
   if(props.loading ||props.disabled) {buttonClass += " button_disabled"}
 

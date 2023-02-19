@@ -16,14 +16,22 @@ button {
   font-size: 14px;
   line-height: 18px;
   border-radius: 6px;
-  padding: 8px;
+  padding: 7px;
   display: flex;
   align-items: center;
 }
 
 .button:hover {
-  opacity: 0.6;
+  opacity: 0.5;
   cursor: pointer;
+}
+
+.button:disabled:hover {
+  opacity: 0.3;
+}
+
+.button_disabled:hover {
+  opacity: 0.3;
 }
 
 .button_disabled {

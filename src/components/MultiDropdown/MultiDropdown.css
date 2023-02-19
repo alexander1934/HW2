@@ -1,0 +1,59 @@
+.selected-value {
+  width: 359px;
+  height: 24px;
+  background: #ffffff;
+  border: 0.5px solid #f0f0f0;
+  border-radius: 12px;
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #252525;
+  padding-left: 8px;
+}
+
+.disabled .selected-value {
+    background: #f7f7f7;
+}
+
+.select-arrow{
+    padding-right: 9px;
+    padding-bottom: 3px;
+}
+
+.options {
+    margin-top: 5px;
+    border-radius: 12px;
+    border: 0.5px solid #f0f0f0;
+    width: 368px;
+
+}
+
+.option {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid #f0f0f0;
+  padding-left: 8px;
+  height: 24px;
+}
+
+.Ekaterinburg {
+    border-bottom: none;
+}
+
+.Moscow{
+    background: #F8F9FA;
+}
+
+.Saint {
+    background: #F8F9FA;
+}
