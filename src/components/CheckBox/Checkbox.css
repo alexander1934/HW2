@@ -1,0 +1,30 @@
+.checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+  width: 27px;
+  height: 27px;
+  background: #ffffff;
+  border: 1px solid #DFE2E4;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.checkbox:hover {
+  border: 1px solid #6C757D;
+}
+
+.checkbox:hover:disabled {
+  border: 1px solid #DFE2E4;
+  opacity: 0.4;
+}
+
+.checkbox:disabled {
+  opacity: 0.4;
+}
+
+.checkbox:checked {
+    border: 1px solid #6C757D;
+    background-image: url("../../styles/images/Check.svg");
+    background-repeat: no-repeat;
+    background-size: 26px 19px;
+}

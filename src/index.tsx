@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import { MultiDropdown } from './components/MultiDropdown/MultiDropdown';
+import { CheckBox } from './components/CheckBox/CheckBox';
 import './styles/styles.scss';
 
 const root = ReactDOM.createRoot(
@@ -9,6 +8,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App></App>
+    <CheckBox onChange={()=> console.log("bebra")}/>
   </React.StrictMode>
 );

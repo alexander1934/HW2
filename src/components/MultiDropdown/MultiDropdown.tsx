@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './MultiDropdown.css';
-import arrow from '../../styles/images/Vector.svg';
+// import arrow from '../../styles/images/Vector.svg';
 
 export type Option = {
   /** Ключ варианта, используется для отправки на бек/использования в коде */
@@ -57,7 +57,7 @@ export const MultiDropdown: React.FC<MultiDropdownProps> = ({
       <div className="selected-value" onClick={openHandler}>
         {pluralizeOptions(value)}
         <div className="select-arrow">
-          <img src={arrow} alt="" />
+          <img src="" alt="" />
         </div>
       </div>
       {isOpen && (
